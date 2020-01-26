@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function timeConversion(s) {
+        let totalTimeNumber=s.length;
+        let hour=parseInt(s.slice(0, 2));
+        var minute=s.slice (3, 5);
+        var seconds=s.slice (6, 8);
+        var ampere=s.slice(totalTimeNumber-2, totalTimeNumber); 
+        if (hour > 12){
+        alert("please check the inputed hour again");
+        }else if( minute> 59){
+        alert("please check the inputed minutes again");
+              }else if(seconds > 59){
+                  alert("please check the inputed seconds again");
+                }else if((hour==12)&&(ampere=="am")) {
+                     changedHour= '00';
+                     console.log(changedHour+": "+ minute+": "+ seconds);
+              }else if((hour!==12)&&(ampere=="am")){
+           console.log(s);
+        }else if((hour===12)&& (ampere==="pm")){
+            console.log(s);
+        }else if(ampere==="pm") {
+            var changedHour=hour+12;
+            console.log(changedHour+": "+ minute+": "+ seconds);
+       }
+    }
+    timeConversion("02:39:34pm");
+        </script>
+</body>
+</html>

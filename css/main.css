@@ -1,0 +1,244 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+#index{
+    background-image: url(../img/mobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.in-height{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.bar{
+    height: 0.3rem;
+    width: 3vw;
+}
+.bar-h{
+    height: 5vh;
+}
+.social-h{
+    height: 70vh;
+}
+.margin{
+    margin-top: 0;
+}
+.margin-a{
+    margin-bottom: auto;
+}
+.menu-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.menu-in{
+    display: none;
+    position: absolute;
+    right: 5px;
+    margin-top: -155px;
+    box-sizing: border-box;
+    transition: ease-in .5s;
+    z-index: 1;
+
+}
+.foot{
+    bottom: 0;
+}
+/* my css for the menu icon */
+.menu-pos{
+    position: fixed;
+    bottom: 5px;
+}
+.low{
+    position: fixed;
+    bottom: 0px;
+    color: #6B3870;
+}
+#m-icon{
+    transition: ease-out 3s;
+}
+#menu-tray{
+    min-height: 170px;
+    z-index: 1px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    position: fixed;
+    right: 40px;
+    bottom: 60px;
+    transform-origin: bottom;
+    transition: .5s;
+    display: none;
+}
+#menu-tray a{
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #6B3870;
+    font-weight: bold;
+    text-decoration: none;
+}
+#color{
+    color: #6B3870;
+}
+.copy-height{
+    min-height: 20vh;
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+}
+.logo-a{
+    width:2.5rem;
+    height: 2.5rem;
+}
+.footer{
+    height: 8vh;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.nav-a{
+    height: 9vh;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.fonts{
+    font-size: 1.5rem;
+}
+.how-font{
+    font-size: 2rem;
+}
+.font-small{
+    font-size: 13px;
+}
+.copy-width{
+    width: 5.5vw;
+}
+.border-thick{
+    border: none !important;
+    border-bottom: 2px solid #3D9218 !important;
+
+}
+.rotate{
+    transform: rotate(90deg) translateX(25px);
+    transform-origin: left;
+    position: fixed;
+    color: #6B3870;
+    top: 470px;
+}
+.img-h{
+    height: 430px;
+}
+.shadow{
+    box-shadow: 0px 3px 6px #00000029;
+}
+.we{
+    height: 100vh;
+    background-image: url("img/landing.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.line{
+    border-style:solid;
+    border-bottom-width: 0px;
+    border-top-width: 5px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    margin-top: 5%;
+}
+.drop{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.down{
+    margin-bottom: 15%;
+    transform: translateY(105%);
+}
+.move{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+#c{
+    color: #6B3870;
+}
+#c:hover{
+    color: green;
+    text-decoration: none;
+}
+#o{
+    color: #6B3870;
+}
+#o:hover{
+    color: green;
+    text-decoration: none;
+}
+#l{
+    color: #6B3870;
+}
+#l:hover{
+    color: green;
+    text-decoration: none;
+}
+#a{
+    color: #6B3870;
+}
+#a:hover{
+    color: green;
+    text-decoration: none;
+}
+#r{
+    color: #6B3870;
+}
+#r:hover{
+    color: green;
+    text-decoration: none;
+}
+.underline:focus{
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    border-bottom-width: 5px;
+}
+ol{
+    list-style-position: hanging;
+}
+.display{
+    font-size: 40px;
+}
+.big{
+    font-size: 20px;
+}
+.shi{
+    transform: translateX(30%);
+}
+/* .sh{
+    transform: translateX(-5%);
+} */
+/* @media only screen and (min-width: 768px){
+    #index{
+        background-image: url(../img/component.png);
+    }
+}
+.pos{
+    transform: translateY(35%);
+}
+@media only screen and (min-width: 768px){
+    .pos{
+        transform: translateY(11%);
+    }
+}
+@media only screen and (min-width: 768px){
+    .both{
+        transform: translateY(30%);
+    }
+}
+@media only screen and (min-width: 768px){
+    .margin{
+        margin-top: 17.25vh;
+    }
+}
+@media only screen and (min-width: 768px){
+    .display{
+        font-size: 60px;
+    }
+} */
