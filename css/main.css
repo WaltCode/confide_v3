@@ -7,16 +7,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.in-height{
+/* .in-height{
     min-height: 100vh;
     position: relative;
     margin: 0;
     padding-bottom: 3px;
     padding-right: 5px;
-}
-.main-height{
+} */
+/* .main-height{
     height: 100vh;
-}
+} */
 .mid-height{
     height: 80vh;
 }
@@ -223,7 +223,7 @@ ol{
 .shi{
     transform: translateX(30%);
 }
-@media only screen and (max-width :768px){
+@media only screen and (max-width :568px){
     #index{
         background-image: url(../img/component\ \(23\)c.png);
         background-size: 100vw 100vh;
