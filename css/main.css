@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 #index{
-    background-image: url(../img/mobile1.png);
+    background-image: url(../img/component.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,9 +14,15 @@ body{
     padding-bottom: 3px;
     padding-right: 5px;
 }
+.main-height{
+    height: 100vh;
+}
+.mid-height{
+    height: 80vh;
+}
 .bar{
     height: 0.3rem;
-    width: 3vw;
+    width: 45px;
 }
 .bar-h{
     height: 5vh;
@@ -61,26 +67,32 @@ body{
     transition: ease-out 3s;
 }
 #menu-tray{
-    min-height: 170px;
+    min-height: 140px;
+    width: 150px;
+    background-color: red;
     z-index: 1px;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     position: fixed;
     right: 40px;
-    bottom: 60px;
+    bottom: 55px;
     transform-origin: bottom;
     transition: .5s;
     display: none;
+    
 }
 #menu-tray a{
-    margin-bottom: auto;
-    margin-top: auto;
+    font-size: 13px;
     color: #6B3870;
+    margin-left: 10px;
     font-weight: bold;
     text-decoration: none;
 }
 #color{
     color: #6B3870;
+}
+#color-home{
+    color: white;
 }
 .copy-height{
     min-height: 20vh;
@@ -210,6 +222,13 @@ ol{
 }
 .shi{
     transform: translateX(30%);
+}
+@media only screen and (max-width :768px){
+    #index{
+        background-image: url(../img/component\ \(23\)c.png);
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
 }
 /* .sh{
     transform: translateX(-5%);
